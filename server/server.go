@@ -9,7 +9,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/wblech/mcp-go/mcp"
 )
 
 // resourceEntry holds both a resource and its handler
@@ -586,7 +586,7 @@ func (s *MCPServer) handleSetLevel(
 			err:  fmt.Errorf("invalid logging level '%s'", level),
 		}
 	}
-	
+
 	sessionLogging.SetLogLevel(level)
 
 	return &mcp.EmptyResult{}, nil

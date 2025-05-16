@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/mark3labs/mcp-go/server"
+	"github.com/wblech/mcp-go/mcp"
+	"github.com/wblech/mcp-go/server"
 )
 
 func TestInProcessMCPClient(t *testing.T) {

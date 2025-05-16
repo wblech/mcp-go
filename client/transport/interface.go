@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/mark3labs/mcp-go/mcp"
+	"github.com/wblech/mcp-go/mcp"
 )
 
 // Interface for the transport layer.
